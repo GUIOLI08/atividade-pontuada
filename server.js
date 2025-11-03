@@ -84,6 +84,30 @@ app.post('/produtos', async (req, res) => {
     }
 });
 
+app.put('/produtos/:id', async (req, res) => {
+    try {
+        const id = req.params.id;
+        const { descricao, quantidade, valor } = req.body;
+
+        const produto = await Produto.findByPk(id);
+
+        if (!produto) {
+            return res.status(404).json({ error: 'Produto não encontrado' });
+        }
+
+        await produto.update({
+            descricao,
+            quantidade,
+            valor
+        });
+
+        res.json(produto);
+    } catch (error) {
+        console.error('Erro ao atualizar produto:', error);
+        res.status(400).json({ error: error.message });
+    }
+});
+
 app.delete('/produtos/:id', async (req, res) => {
     try {
         const id = req.params.id;

@@ -134,15 +134,18 @@ body {
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
-.close-btn {
+.close-btn, .close-btn-edit {
     color: #aaa;
     float: right;
     font-size: 28px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .close-btn:hover,
-.close-btn:focus {
+.close-btn:focus,
+.close-btn-edit:hover,
+.close-btn-edit:focus {
     color: #000;
     text-decoration: none;
     cursor: pointer;
