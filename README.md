@@ -23,7 +23,7 @@ Para rodar os códigos localmente, você precisará ter o **Node.js** instalado 
 
 1. **Clone este repositório:**
    ```bash
-   git clone [https://github.com/GUIOLI08/Ativ-PontuadaAnildo.git](https://github.com/GUIOLI08/Ativ-PontuadaAnildo.git)
+   git clone [https://github.com/GUIOLI08/atividade-pontuada.git](https://github.com/GUIOLI08/atividade-pontuada.git)
 
 2. Entre na pasta do projeto:
    ```bash
