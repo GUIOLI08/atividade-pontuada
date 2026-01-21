@@ -30,11 +30,11 @@ Para rodar os códigos localmente, você precisará ter o **Node.js** instalado 
    cd Ativ-PontuadaAnildo
 
 3. Baixe as dependências:
-  ```bash
-  npm install
-  ```
+   ```bash
+   npm install
+   ```
 4. Rode o Servidor:
-  ```bash
-  npm run dev
-  ```
+   ```bash
+   npm run dev
+   ```
 Desenvolvido por: Guilherme Oliver
