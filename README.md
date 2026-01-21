@@ -33,8 +33,10 @@ Para rodar os códigos localmente, você precisará ter o **Node.js** instalado 
    ```bash
    npm install
    ```
+   
 4. Rode o Servidor:
    ```bash
    npm run dev
    ```
+   
 Desenvolvido por: Guilherme Oliver
