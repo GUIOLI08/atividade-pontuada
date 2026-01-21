@@ -26,12 +26,15 @@ Para rodar os códigos localmente, você precisará ter o **Node.js** instalado 
    git clone [https://github.com/GUIOLI08/Ativ-PontuadaAnildo.git](https://github.com/GUIOLI08/Ativ-PontuadaAnildo.git)
 
 2. Entre na pasta do projeto:
-   ```cd Ativ-PontuadaAnildo```
+   ```bash
+   cd Ativ-PontuadaAnildo
 
 3. Baixe as dependências:
-  ```npm install```
-
+  ```bash
+  npm install
+  ```
 4. Rode o Servidor:
-  ```npm run dev```
-
+  ```bash
+  npm run dev
+  ```
 Desenvolvido por: Guilherme Oliver
